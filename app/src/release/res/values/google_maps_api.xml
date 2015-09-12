@@ -1,0 +1,18 @@
+<resources>
+    <!--
+
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=AA:5E:98:2F:71:F6:EC:BA:D1:B8:F7:4C:45:94:0C:D4:FC:E4:25:57%3Buk.co.findmyride.track
+
+    You can also add your credentials to an existing key, using this line:
+    AA:5E:98:2F:71:F6:EC:BA:D1:B8:F7:4C:45:94:0C:D4:FC:E4:25:57;uk.co.findmyride.track
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">
+        YOUR_KEY_HERE
+    </string>
+</resources>

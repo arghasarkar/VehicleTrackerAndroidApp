@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="uk.co.findmyride.track.Login1"
+    android:id="@+id/background">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/butLogin"
+        android:layout_marginTop="57dp"
+        android:clickable="true"
+        android:layout_below="@+id/editPassword"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Email:"
+        android:id="@+id/labEmail"
+        android:enabled="true"
+        android:layout_marginTop="58dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/labPassword"
+        android:layout_alignEnd="@+id/labPassword" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Password:"
+        android:id="@+id/labPassword"
+        android:enabled="true"
+        android:layout_above="@+id/butLogin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editEmail"
+        android:layout_alignBottom="@+id/labEmail"
+        android:layout_alignLeft="@+id/butLogin"
+        android:layout_alignStart="@+id/butLogin" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editPassword"
+        android:layout_below="@+id/editEmail"
+        android:layout_alignLeft="@+id/editEmail"
+        android:layout_alignStart="@+id/editEmail" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Please log in to continue."
+        android:id="@+id/labLoginStatus"
+        android:layout_below="@+id/butLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="New users: Register at FindMyRide.Co.Uk "
+        android:id="@+id/labRegister"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/labLoginStatus"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

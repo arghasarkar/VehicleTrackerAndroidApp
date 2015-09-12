@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FindMyRide</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_login1">FindMyRide - Login</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_devices">FindMyRide - Devices</string>
+
+    <string name="hello_world">Hello world!</string>
+
+</resources>
